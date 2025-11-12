@@ -282,7 +282,7 @@ export default function LandingPage() {
                     {product.description}
                   </p>
                   <div className="flex justify-between items-center pt-4 border-t border-gray-100 mt-auto">
-                    <span className="text-2xl font-bold text-green-700">{product.price}</span>
+                    <span className="text-2xl font-bold text-green-700">Rs.{product.price}</span>
                     <button className="flex items-center gap-2 bg-green-700 text-white px-4 py-2 rounded-lg hover:bg-green-800 transition text-sm font-medium">
                       <ShoppingCart size={18} />
                       Shop Now
@@ -401,4 +401,5 @@ export default function LandingPage() {
     </div>
   );
 };
+
 
