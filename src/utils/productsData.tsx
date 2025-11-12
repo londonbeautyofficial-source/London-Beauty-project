@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     name: "London Beauty Scrub",
-    price: 24.99,
+    price: 560,
     image: "/londonBeauty Scrub.png",
     description: "A gentle exfoliating scrub that removes dead skin cells and reveals a radiant, smooth complexion."
   },
@@ -70,3 +70,4 @@ export const products = [
     description: "Lightweight and fast-absorbing lotion that softens and hydrates both face and body all day long."
   }
 ];
+
